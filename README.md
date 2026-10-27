@@ -5,6 +5,9 @@ This repository is dedicated to exploring the capabilities of the Pandas library
 
 ## Features
 
+With this library we can import, export, display, and manipulate data.
+
+
 - Data cleaning and preprocessing pipelines
 - Handling missing data and outliers
 - Grouping, merging, and joining datasets
