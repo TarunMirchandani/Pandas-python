@@ -9,6 +9,9 @@ data = {
 # Converting the dictionary into a Pandas DataFrame (Capital D and F)
 df = pd.DataFrame(data)
 
+# add new column
+df["Job"] = ["agent" , "racer" , "hacker"]
+
 print("--- Creating a DataFrame ---")
 print(df)
 
