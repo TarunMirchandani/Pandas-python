@@ -6,3 +6,12 @@ import pandas as pd
 
 df = pd.read_csv("data.csv", index_col="name")
 print(df.iloc[0])  # Works perfectly!
+
+
+# Option 2: If you want to look up a row by a person's name
+Keep .loc[] but pass the specific text label (the name) you are searching for
+
+import pandas as pd
+
+df = pd.read_csv("data.csv", index_col="name")
+print(df.loc["Alice"])  # Looks up the row for Alice
